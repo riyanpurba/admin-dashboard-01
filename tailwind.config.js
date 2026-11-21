@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: { 
+        brand: { 
+          red: '#991b1b', 
+          yellow: '#facc15', 
+          ink: '#171717' 
+        } 
+      },
+      boxShadow: { 
+        soft: '0 8px 30px rgba(15, 23, 42, 0.06)'
+      }
+    },
   },
   plugins: [],
 }
